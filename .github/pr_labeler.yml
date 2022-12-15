@@ -1,3 +1,9 @@
+cli:
+  - cli/**/*
+website:
+  - website/**/*
+
+# source plugins
 aws:
   - plugins/source/aws/**/*
 azure:
@@ -20,27 +26,29 @@ gcp:
   - plugins/source/gcp/**/*
 github:
   - plugins/source/github/**/*
-k8s:
-  - plugins/source/k8s/**/*
 heroku:
   - plugins/source/heroku/**/*
+k8s:
+  - plugins/source/k8s/**/*
 okta:
   - plugins/source/okta/**/*
+snyk:
+  - plugins/source/snyk/**/*
+tailscale:
+  - plugins/source/tailscale/**/*
 terraform:
   - plugins/source/terraform/**/*
 vercel:
   - plugins/source/vercel/**/*
-postgresql:
-  - plugins/destination/postgresql/**/*
-sqlite:
-  - plugins/destination/sqlite/**/*
-csv:
-  - plugins/destination/csv/**/*
-snowflake:
-  - plugins/destination/snowflake/**/*
+
+# destination plugins
 bigquery:
   - plugins/destination/bigquery/**/*
-website:
-  - website/**/*
-cli:
-  - cli/**/*
+csv:
+  - plugins/destination/csv/**/*
+postgresql:
+  - plugins/destination/postgresql/**/*
+snowflake:
+  - plugins/destination/snowflake/**/*
+sqlite:
+  - plugins/destination/sqlite/**/*

@@ -1,0 +1,5 @@
+# Source Plugin: snyk
+## Tables
+- [snyk_integrations](snyk_integrations.md)
+- [snyk_organizations](snyk_organizations.md)
+- [snyk_projects](snyk_projects.md)

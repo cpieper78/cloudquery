@@ -11,6 +11,8 @@
   "heroku": "Heroku",
   "k8s": "Kubernetes",
   "okta": "Okta",
+  "snyk": "Snyk",
+  "tailscale": "Tailscale",
   "terraform": "Terraform",
   "vercel": "Vercel"
 }
