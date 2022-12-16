@@ -6,6 +6,44 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [7.4.1](https://github.com/cloudquery/cloudquery/compare/plugins-source-aws-v7.4.0...plugins-source-aws-v7.4.1) (2022-12-16)
+
+
+### Bug Fixes
+
+* **deps:** Update module github.com/aws/aws-sdk-go-v2 to v1.17.3 ([#5685](https://github.com/cloudquery/cloudquery/issues/5685)) ([e540ee5](https://github.com/cloudquery/cloudquery/commit/e540ee53c58b580f64d1317dbaffddf1b3950e20))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/config to v1.18.5 ([#5686](https://github.com/cloudquery/cloudquery/issues/5686)) ([72d50ea](https://github.com/cloudquery/cloudquery/commit/72d50ea25d1cd5018f163ead27909aee3872e0ed))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/credentials to v1.13.5 ([#5687](https://github.com/cloudquery/cloudquery/issues/5687)) ([8b8cd71](https://github.com/cloudquery/cloudquery/commit/8b8cd71ced04471fcf1c451d13facb1817881e6f))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/feature/s3/manager to v1.11.44 ([#5688](https://github.com/cloudquery/cloudquery/issues/5688)) ([5e37ab3](https://github.com/cloudquery/cloudquery/commit/5e37ab37f8db8a4d9bde577ba0fe03b08d9d7ebd))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/accessanalyzer to v1.18.2 ([#5689](https://github.com/cloudquery/cloudquery/issues/5689)) ([801834a](https://github.com/cloudquery/cloudquery/commit/801834a0acc9b8da84dfd2fd87edfad6445abf61))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/acm to v1.16.5 ([#5691](https://github.com/cloudquery/cloudquery/issues/5691)) ([da5760d](https://github.com/cloudquery/cloudquery/commit/da5760d5f578222605e47a787a8e2f3991d134a3))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/apigateway to v1.15.27 ([#5692](https://github.com/cloudquery/cloudquery/issues/5692)) ([2d838df](https://github.com/cloudquery/cloudquery/commit/2d838dfdca2a37b70fe36e59176a70a86ee7c1b3))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/apigatewayv2 to v1.12.25 ([#5693](https://github.com/cloudquery/cloudquery/issues/5693)) ([748dd66](https://github.com/cloudquery/cloudquery/commit/748dd6677e6fae25e21ece18c15ce2ca20e7bea8))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/applicationautoscaling to v1.15.25 ([#5694](https://github.com/cloudquery/cloudquery/issues/5694)) ([9d74fbb](https://github.com/cloudquery/cloudquery/commit/9d74fbbee0f0d9beb2be25866e41dad518419fd3))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/apprunner to v1.15.2 ([#5695](https://github.com/cloudquery/cloudquery/issues/5695)) ([6d7be4b](https://github.com/cloudquery/cloudquery/commit/6d7be4b57695dff944840b0f888a5c8913ab1590))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/appstream to v1.18.3 ([#5696](https://github.com/cloudquery/cloudquery/issues/5696)) ([6cffcd8](https://github.com/cloudquery/cloudquery/commit/6cffcd868c3d422a67242591fe41ac1384ddbfdf))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/appsync to v1.17.1 ([#5697](https://github.com/cloudquery/cloudquery/issues/5697)) ([476b82b](https://github.com/cloudquery/cloudquery/commit/476b82b7502e1fe55bd1a883435f51764c7d4237))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/athena to v1.20.3 ([#5698](https://github.com/cloudquery/cloudquery/issues/5698)) ([2e9aa33](https://github.com/cloudquery/cloudquery/commit/2e9aa33984a499558d481c7de818a9569187aff8))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/autoscaling to v1.25.1 ([#5699](https://github.com/cloudquery/cloudquery/issues/5699)) ([f4ae75f](https://github.com/cloudquery/cloudquery/commit/f4ae75f9020614e50df63b24a4338f96190c1d12))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/backup to v1.18.2 ([#5700](https://github.com/cloudquery/cloudquery/issues/5700)) ([f592456](https://github.com/cloudquery/cloudquery/commit/f592456c7d53e3348321bffa5b415da29364e3a1))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/cloudformation to v1.24.3 ([#5701](https://github.com/cloudquery/cloudquery/issues/5701)) ([3c8f3de](https://github.com/cloudquery/cloudquery/commit/3c8f3de2ca8d74716fb5f7415bd06f9b52696831))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/cloudfront to v1.22.1 ([#5702](https://github.com/cloudquery/cloudquery/issues/5702)) ([c12fe3f](https://github.com/cloudquery/cloudquery/commit/c12fe3f151ee21eb9ad67561b51ea674729478d6))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/cloudhsmv2 to v1.13.23 ([#5703](https://github.com/cloudquery/cloudquery/issues/5703)) ([cbef456](https://github.com/cloudquery/cloudquery/commit/cbef456a65cd0dd1f70c126ce12ea8343b50479b))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/cloudtrail to v1.21.0 ([#5631](https://github.com/cloudquery/cloudquery/issues/5631)) ([ea6ce38](https://github.com/cloudquery/cloudquery/commit/ea6ce381d9f2da05966be1990855d8339f1f92b1))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/cloudtrail to v1.21.1 ([#5704](https://github.com/cloudquery/cloudquery/issues/5704)) ([609b3c7](https://github.com/cloudquery/cloudquery/commit/609b3c7cde08508efb68e3a24eb083a2aeafdffb))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/cloudwatch to v1.23.0 ([#5667](https://github.com/cloudquery/cloudquery/issues/5667)) ([a2ecabc](https://github.com/cloudquery/cloudquery/commit/a2ecabc5b42f1e3b3835ca95f54699ec71fac4e6))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/cloudwatch to v1.23.1 ([#5705](https://github.com/cloudquery/cloudquery/issues/5705)) ([2674a72](https://github.com/cloudquery/cloudquery/commit/2674a72aa6a4b7b20f230fb7bde46124c5ac111b))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/guardduty to v1.16.4 ([#5630](https://github.com/cloudquery/cloudquery/issues/5630)) ([cd3754f](https://github.com/cloudquery/cloudquery/commit/cd3754f83e6d47abbebc6aea6d3d02952f640d30))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/kms to v1.19.3 ([#5666](https://github.com/cloudquery/cloudquery/issues/5666)) ([c033c81](https://github.com/cloudquery/cloudquery/commit/c033c814ad263f0fb3a77f956915c29c3ddb2d73))
+* **deps:** Update module github.com/aws/aws-sdk-go-v2/service/rds to v1.35.0 ([#5632](https://github.com/cloudquery/cloudquery/issues/5632)) ([98b796a](https://github.com/cloudquery/cloudquery/commit/98b796a9029ac5155d9cd93e13e775dd02b26eab))
+* **deps:** Update module github.com/cloudquery/plugin-sdk to v1.12.2 ([#5583](https://github.com/cloudquery/cloudquery/issues/5583)) ([d721c4e](https://github.com/cloudquery/cloudquery/commit/d721c4e06b8a97b5373215aca0e4ed64942ac489))
+* **deps:** Update module github.com/cloudquery/plugin-sdk to v1.12.3 ([#5639](https://github.com/cloudquery/cloudquery/issues/5639)) ([6452d0e](https://github.com/cloudquery/cloudquery/commit/6452d0ed5a44abad9d7530af6e79cde6504d0c4c))
+* **deps:** Update module github.com/cloudquery/plugin-sdk to v1.12.4 ([#5649](https://github.com/cloudquery/cloudquery/issues/5649)) ([b4aa889](https://github.com/cloudquery/cloudquery/commit/b4aa889e396db3b0887d1684e4bc07da6050af43))
+* **deps:** Update module github.com/cloudquery/plugin-sdk to v1.12.5 ([#5661](https://github.com/cloudquery/cloudquery/issues/5661)) ([b354b8a](https://github.com/cloudquery/cloudquery/commit/b354b8a3683fa2bc918c1002afac487427d65a5f))
+* Update endpoints ([#5628](https://github.com/cloudquery/cloudquery/issues/5628)) ([b117530](https://github.com/cloudquery/cloudquery/commit/b1175301e95ad81b800cd0190acdcea56de534eb))
+* Update endpoints ([#5664](https://github.com/cloudquery/cloudquery/issues/5664)) ([1cc7d60](https://github.com/cloudquery/cloudquery/commit/1cc7d60a4f8ad91ebf32ab8ba77ca7a6e2f49e57))
+* Update endpoints ([#5682](https://github.com/cloudquery/cloudquery/issues/5682)) ([c7c79a2](https://github.com/cloudquery/cloudquery/commit/c7c79a28509fb5436af19efe8a2055cd46c0e594))
+
 ## [7.4.0](https://github.com/cloudquery/cloudquery/compare/plugins-source-aws-v7.3.2...plugins-source-aws-v7.4.0) (2022-12-13)
 
 
