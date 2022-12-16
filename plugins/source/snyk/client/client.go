@@ -22,7 +22,7 @@ type Client struct {
 var _ schema.ClientMeta = (*Client)(nil)
 
 func (c *Client) ID() string {
-	return "snyk/" + c.OrganizationID
+	return c.OrganizationID
 }
 
 func (c *Client) Logger() *zerolog.Logger {
